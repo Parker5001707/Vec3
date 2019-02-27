@@ -30,4 +30,4 @@ Then commit
 git commit -am "removed unwanted files"
 ```
 
-5.
+5. The gitignore
