@@ -5,6 +5,11 @@ class Vec3
 {
   public :
     Vec3()=default;
+
+    Vec3(float _x, float _y, float _z) :
+        m_x{_x}, m_y{_y}, m_z{_z}
+    {}
+
     ~Vec3() noexcept =default;
     Vec3(const Vec3 &)=default;
     Vec3 & operator=(const Vec3 &)=default;
